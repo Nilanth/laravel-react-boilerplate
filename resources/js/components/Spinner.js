@@ -6,5 +6,5 @@ export default function Spinner() {
     <div className="auth-spin">
       <Spin indicator={<LoadingOutlined style={{fontSize: 60}} spin/>}/>
     </div>
-  ); 
+  );
 }
