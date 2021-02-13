@@ -12633,6 +12633,11 @@ function AppRoutes(_ref) {
       }),
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Switch, {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_routes_helpers__WEBPACK_IMPORTED_MODULE_1__.PublicRoute, {
+          path: "/",
+          isAuthenticated: isAuthenticated,
+          exact: true,
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(LoginPage, {})
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_routes_helpers__WEBPACK_IMPORTED_MODULE_1__.PublicRoute, {
           path: "/login",
           isAuthenticated: isAuthenticated,
           exact: true,
