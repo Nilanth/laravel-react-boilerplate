@@ -12635,10 +12635,12 @@ function AppRoutes(_ref) {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_routes_helpers__WEBPACK_IMPORTED_MODULE_1__.PublicRoute, {
           path: "/login",
           isAuthenticated: isAuthenticated,
+          exact: true,
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(LoginPage, {})
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_routes_helpers__WEBPACK_IMPORTED_MODULE_1__.PublicRoute, {
           path: "/register",
           isAuthenticated: isAuthenticated,
+          exact: true,
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Registration, {})
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_routes_helpers__WEBPACK_IMPORTED_MODULE_1__.PrivateRoute, {
           path: "/",
@@ -12721,9 +12723,11 @@ function ProtectedRoutes() {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Switch, {
         children: _routes__WEBPACK_IMPORTED_MODULE_2__.default.map(function (_ref, index) {
           var Component = _ref.component,
-              path = _ref.path;
+              path = _ref.path,
+              exact = _ref.exact;
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
-            path: path,
+            path: "/".concat(path),
+            exact: exact,
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Component, {})
           }, index);
         })
@@ -12819,10 +12823,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([{
-  path: '/dashboard',
+  path: 'dashboard',
   component: /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.lazy)(function () {
     return __webpack_require__.e(/*! import() */ "resources_js_components_Dashboard_js").then(__webpack_require__.bind(__webpack_require__, /*! ../components/Dashboard */ "./resources/js/components/Dashboard.js"));
-  })
+  }),
+  exact: true
 }]);
 
 /***/ }),
