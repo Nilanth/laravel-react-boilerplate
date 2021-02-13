@@ -1,10 +1,22 @@
 {
-    "name": "laravel/laravel",
+    "name": "Nilanth/laravel-react-redux",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Laravel React Redux Boilerplate",
     "keywords": [
-        "framework",
-        "laravel"
+        "laravel",
+        "laravel-8",
+        "react",
+        "react-redux",
+        "redux",
+        "antd",
+        "react-router",
+        "sanctum",
+        "axios",
+        "redux-saga",
+        "authentication",
+        "scss",
+        "larave-react-redux-boilerplate",
+        "larave-react-redux"
     ],
     "license": "MIT",
     "require": {

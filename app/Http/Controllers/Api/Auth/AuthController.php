@@ -20,7 +20,6 @@ class AuthController extends Controller
      */
     public function authenticate(Request $request): JsonResponse
     {
-
         $request->validate([
             'email' => 'required|email|exists:users,email',
             'password' => 'required|min:6',
@@ -37,7 +36,6 @@ class AuthController extends Controller
 
     public function register(Request $request): JsonResponse
     {
-
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
