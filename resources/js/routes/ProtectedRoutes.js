@@ -1,5 +1,5 @@
 // Here we include the components which need to be accesses after successful login.
-import {Route, Switch, useLocation} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import {Button, Layout} from 'antd';
 import {useDispatch, useSelector} from 'react-redux';
 import {LoginOutlined} from '@ant-design/icons';
