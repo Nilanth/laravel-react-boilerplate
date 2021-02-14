@@ -50,13 +50,13 @@ composer create-project nilanth/laravel-react-boilerplate
 ```
 
 2. `cd laravel-react-boilerplate`
-- Run `yarn install`
-- Create a Database
-- Update the Database credential to .env file
-- Run `php artisan migrate` -> To create needed tables.
-- Run `php artisan db:seed` -> To seed some fake users.
-- Run `yarn run dev`
-- Update API HOST_URL in `resources/js/config/constant.js` file
+3. Run `yarn install`
+4. Create a Database
+5. Update the Database credential to .env file
+6. Run `php artisan migrate` -> To create needed tables.
+7. Run `php artisan db:seed` -> To seed some fake users.
+8. Run `yarn run dev`
+9. Update API HOST_URL in `resources/js/config/constant.js` file
 
 ### Coming Up 
 
