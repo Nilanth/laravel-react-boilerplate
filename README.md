@@ -1,6 +1,11 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 ## Laravel React Redux Boilerplate
+<p align="center">
+<a href="https://packagist.org/packages/nilanth/laravel-react-redux"><img src="https://img.shields.io/packagist/v/nilanth/laravel-react-redux" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/nilanth/laravel-react-redux"><img src="https://img.shields.io/packagist/l/nilanth/laravel-react-redux" alt="License"></a>
+</p>
+
 
 ### Laravel react redux boilerplate is pre-configured with
 
