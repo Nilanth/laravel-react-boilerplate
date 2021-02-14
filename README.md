@@ -2,6 +2,12 @@
 
 ## Laravel React Redux Boilerplate
 
+<p align="center">
+<a href="https://packagist.org/packages/nilanth/laravel-react-redux"><img src="https://img.shields.io/packagist/v/nilanth/laravel-react-redux" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/nilanth/laravel-react-redux"><img src="https://img.shields.io/packagist/l/nilanth/laravel-react-redux" alt="License"></a>
+</p>
+
+
 ### Laravel react redux boilerplate is pre-configured with
 
 - Laravel 8
