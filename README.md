@@ -54,6 +54,7 @@ You can choose either one for your development
 - Run `php artisan migrate` -> To create needed tables.
 - Run `php artisan db:seed` -> To seed some fake users.
 - Run `yarn run dev`
+- Update API HOST_URL in `resources/js/config/constant.js` file
 
 ### Coming Up 
 
