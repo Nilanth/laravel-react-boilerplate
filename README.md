@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/nilanth/laravel-react-redux"><img src="https://img.shields.io/packagist/l/nilanth/laravel-react-redux" alt="License"></a>
 </p>
 
-Laravel React Redux Boilerplate helps to fasten your development, Instead of spending time configuring React and Authentication.
+Laravel React Redux Boilerplate helps to fasten your development, Instead of spending more time on configuring React and SPA Authentication.
 
 ### Pre-Configured with
 
