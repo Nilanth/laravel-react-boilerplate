@@ -42,6 +42,14 @@
 - Run `php artisan db:seed` -> To seed some fake users.
 - Run `yarn run dev`
 
+### Coming Up 
+
+- Tests
+- Custom Error response for API request
+- Reset Password
+- Demo Link
+- Email Verification
+
 ## Contributing
 
 Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
