@@ -1,13 +1,13 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-## Laravel React Redux Boilerplate
+## Laravel React Boilerplate
 
 <p>
-<a href="https://packagist.org/packages/nilanth/laravel-react-redux"><img src="https://img.shields.io/packagist/v/nilanth/laravel-react-redux" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/nilanth/laravel-react-redux"><img src="https://img.shields.io/packagist/l/nilanth/laravel-react-redux" alt="License"></a>
+<a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/v/nilanth/laravel-react-redux" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/l/nilanth/laravel-react-redux" alt="License"></a>
 </p>
 
-Laravel React Redux Boilerplate helps to fasten your development, Instead of spending more time on configuring React and SPA Authentication.
+Laravel React Boilerplate helps to fasten your development, Instead of spending more time on configuring React and SPA Authentication.
 
 ### Pre-Configured with
 
@@ -44,7 +44,7 @@ You can choose either one for your development
 ### Usage
 
 - Clone this Repo
-- `cd laravel-react-redux`
+- `cd laravel-react-boilerplate`
 - Create a .env by copying .env.example and Update the required fields.
 - Run `composer install`
 - Run `php artisan key:gen`

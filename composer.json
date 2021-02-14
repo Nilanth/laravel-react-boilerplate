@@ -1,6 +1,6 @@
 {
-    "name": "nilanth/laravel-react-redux",
-    "description": "Laravel React Redux Boilerplate",
+    "name": "nilanth/laravel-react-boilerplate",
+    "description": "Laravel React Boilerplate",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -23,7 +23,7 @@
         "redux-saga",
         "authentication",
         "scss",
-        "larave-react-redux-boilerplate",
+        "larave-react-boilerplate",
         "larave-react-redux"
     ],
     "require": {
