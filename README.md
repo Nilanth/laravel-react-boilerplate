@@ -26,7 +26,7 @@ Laravel React Redux Boilerplate helps to fasten your development, Instead of spe
 ### Pre-Configured Modules
 
 - User Login
-- User Register
+- User SignUp
 - Auth Routes
 
 ## Quick Start
