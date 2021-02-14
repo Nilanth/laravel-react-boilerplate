@@ -43,11 +43,13 @@ You can choose either one for your development
 
 ### Usage
 
-- Clone this Repo
-- `cd laravel-react-boilerplate`
-- Create a .env by copying .env.example and Update the required fields.
-- Run `composer install`
-- Run `php artisan key:gen`
+1. Install using composer
+
+```
+composer create-project nilanth/laravel-react-boilerplate
+```
+
+2. `cd laravel-react-boilerplate`
 - Run `yarn install`
 - Create a Database
 - Update the Database credential to .env file
