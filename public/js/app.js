@@ -12063,7 +12063,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var constants = {
-  HOST_URL: 'http://laravel-react-redux.test/api',
+  HOST_URL: 'http://laravel-react-boilerplate.test/api',
   headers: {
     'Content-Type': 'application/json',
     Accept: 'application/json'

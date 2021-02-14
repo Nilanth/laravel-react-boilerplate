@@ -1,5 +1,5 @@
 const constants = {
-  HOST_URL: 'http://laravel-react-redux.test/api',
+  HOST_URL: 'http://laravel-react-boilerplate.test/api',
   headers: {
     'Content-Type': 'application/json',
     Accept: 'application/json',
