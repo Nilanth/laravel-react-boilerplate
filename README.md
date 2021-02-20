@@ -43,6 +43,8 @@ You can choose either one for your development
 
 ### Usage
 
+## Option 1
+
 1. Install using composer
 
 ```
@@ -57,6 +59,22 @@ composer create-project nilanth/laravel-react-boilerplate
 7. Run `php artisan db:seed` -> To seed some fake users.
 8. Run `yarn run dev`
 9. Update API HOST_URL in `resources/js/config/constant.js` file
+
+## Option 2
+
+
+- Clone this Repo
+- `cd laravel-react-boilerplate`
+- Create a .env by copying .env.example and Update the required fields.
+- Run `composer install`
+- Run `php artisan key:gen`
+- Run `yarn install`
+- Create a Database
+- Update the Database credential to .env file
+- Run `php artisan migrate` -> To create needed tables.
+- Run `php artisan db:seed` -> To seed some fake users.
+- Run `yarn run dev`
+- Update API HOST_URL in `resources/js/config/constant.js` file
 
 ### Coming Up 
 
