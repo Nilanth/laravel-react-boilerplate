@@ -63,18 +63,18 @@ composer create-project nilanth/laravel-react-boilerplate
 ## Option 2
 
 
-- Clone this Repo
-- `cd laravel-react-boilerplate`
-- Create a .env by copying .env.example and Update the required fields.
-- Run `composer install`
-- Run `php artisan key:gen`
-- Run `yarn install`
-- Create a Database
-- Update the Database credential to .env file
-- Run `php artisan migrate` -> To create needed tables.
-- Run `php artisan db:seed` -> To seed some fake users.
-- Run `yarn run dev`
-- Update API HOST_URL in `resources/js/config/constant.js` file
+1. Clone this Repo
+2. `cd laravel-react-boilerplate`
+3. Create a .env by copying .env.example and Update the required fields.
+4. Run `composer install`
+5. Run `php artisan key:gen`
+6. Run `yarn install`
+7. Create a Database
+8. Update the Database credential to .env file
+9. Run `php artisan migrate` -> To create needed tables.
+10. Run `php artisan db:seed` -> To seed some fake users.
+11. Run `yarn run dev`
+12. Update API HOST_URL in `resources/js/config/constant.js` file
 
 ### Coming Up 
 
