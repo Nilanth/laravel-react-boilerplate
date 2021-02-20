@@ -41,9 +41,9 @@ You can choose either one for your development
 1. [Composer 2](https://getcomposer.org/download/). 
 2. [Node](https://nodejs.org/en/) stable version.
 
-### Usage
+## Usage
 
-## Option 1
+### Option 1
 
 1. Install using composer
 
@@ -60,7 +60,7 @@ composer create-project nilanth/laravel-react-boilerplate
 8. Run `yarn run dev`
 9. Update API HOST_URL in `resources/js/config/constant.js` file
 
-## Option 2
+### Option 2
 
 
 1. Clone this Repo
