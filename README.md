@@ -81,7 +81,6 @@ composer create-project nilanth/laravel-react-boilerplate
 - Tests
 - Custom Error response for API request
 - Reset Password
-- Demo Link
 - Email Verification
 
 ## Contributing
