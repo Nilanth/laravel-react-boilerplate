@@ -16,6 +16,7 @@ Laravel React Boilerplate helps to fasten your development, Instead of spending 
 - React 17
 - Redux 
 - React Router
+- Route-Level Code-Splitting
 - Axios
 - [Ant Design](https://github.com/ant-design/ant-design)
 - [Redux Saga](https://redux-saga.js.org/)
