@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[973],{2973:(e,a,s)=>{"use strict";s.r(a),s.d(a,{default:()=>c});var r=s(5893);const c=function(){return(0,r.jsx)("div",{className:"dashboard",children:(0,r.jsx)("h1",{children:"Laravel React Boilerplate"})})}}}]);

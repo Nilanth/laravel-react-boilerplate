@@ -1,0 +1,70 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// AntD
+@import '~antd/dist/antd.css';
+
+#app, section, section > div {
+    height: 100%;
+}
+
+.ant-layout-content {
+    background: $body-bg;
+}
+
+.ant-layout-header {
+    background: #0c6fce;
+}
+
+.header-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .name {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        margin-right: 15px;
+    }
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.register-form {
+    .ant-form-item {
+        margin-bottom: 10px;
+    }
+
+    .ant-form-item-label {
+        padding: 0 !important;
+        label{
+            height: 30px;
+        }
+    }
+}
+
+.auth-spin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.dashboard {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

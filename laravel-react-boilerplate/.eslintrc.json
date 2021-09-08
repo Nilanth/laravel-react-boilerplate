@@ -1,0 +1,42 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "parser": "@babel/eslint-parser",
+        "ecmaVersion": 11,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2,
+            { "SwitchCase": 1 }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "arrow-body-style": [
+            2,
+            "as-needed"
+        ],
+        "lines-between-class-members": ["error", "always"] ,
+        "comma-dangle": [
+            2,
+            "always-multiline"
+        ],
+        "no-confusing-arrow": 1,
+        "no-console": "warn",
+        "no-use-before-define": 1,
+        "prefer-template": 2
+    }
+}
