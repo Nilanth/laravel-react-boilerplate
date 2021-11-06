@@ -100,3 +100,12 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
+
+If you found this boilerplate helpful, consider supporting me with a coffee.
+
+<a href="https://www.buymeacoffee.com/nilanth" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee"  height=40 ></a>
+
