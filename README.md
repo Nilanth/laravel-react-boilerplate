@@ -11,9 +11,9 @@ Laravel React Boilerplate helps to fasten your development, Instead of spending 
 
 ### Pre-Configured with
 
-- Laravel 8
+- **Laravel 9**
 - Laravel Sanctum for SPA Auth
-- React 17
+- **React 18**
 - Redux 
 - React Router
 - Route-Level Code-Splitting
