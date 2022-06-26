@@ -1,14 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './ReactApp';
 import {Provider} from 'react-redux'
 import store from './redux/store'
 
-
-ReactDOM.render(
-  /*Redux Provider is included access the store values from anywhere inside the child components.*/
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(
   <Provider store={store()}>
-    <App/>
+    <App />
   </Provider>,
-  document.getElementById('app'),
 );

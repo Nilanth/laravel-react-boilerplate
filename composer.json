@@ -28,20 +28,19 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.12",
+        "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.9",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.2"
     },
     "require-dev": {
-        "facade/ignition": "^2.5",
+        "spatie/laravel-ignition": "^1.0",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
-        "nunomaduro/collision": "^5.0",
+        "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.3.3"
     },
     "config": {
