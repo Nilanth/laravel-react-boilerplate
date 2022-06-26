@@ -2,9 +2,10 @@
 
 ## Laravel React Boilerplate
 
-<p>
-<a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/v/nilanth/laravel-react-redux" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/l/nilanth/laravel-react-redux" alt="License"></a>
+<p align="center">
+    <a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/dt/nilanth/laravel-react-boilerplate" alt="Total Downloads"></a>
+    <a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/v/nilanth/laravel-react-boilerplate" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/nilanth/laravel-react-boilerplate"><img src="https://img.shields.io/packagist/l/nilanth/laravel-react-boilerplate" alt="License"></a>
 </p>
 
 Laravel React Boilerplate helps to fasten your development, Instead of spending more time on configuring React and SPA Authentication.
