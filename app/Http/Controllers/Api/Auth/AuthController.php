@@ -17,11 +17,10 @@ class AuthController extends Controller
     {
         $data = [
             'email' => $request['email'],
-            'password' => $request['password'],
-            $request['remember']
+            'password' => $request['password']
         ];
 
-        if (!Auth::attempt($data)) {
+        if (!Auth::attempt($data, $request['remember'])) {
             return response()->json(['message' => 'Invalid credentials'], 401);
         }
 
