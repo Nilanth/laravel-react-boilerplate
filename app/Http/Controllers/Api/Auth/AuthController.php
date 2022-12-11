@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\AuthenticateRequest;
 use App\Http\Requests\RegisterRequest;
 use App\Http\Resources\UserResource;
 use App\Models\User;
@@ -12,26 +13,21 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
-    /**
-     * Handle an authentication attempt.
-     *
-     * @param Request $request
-     * @return JsonResponse
-     */
-    public function authenticate(Request $request): JsonResponse
+    public function authenticate(AuthenticateRequest $request): UserResource|JsonResponse
     {
-        $request->validate([
-            'email' => 'required|email|exists:users,email',
-            'password' => 'required|min:6',
-        ]);
+        $data = [
+            'email' => $request['email'],
+            'password' => $request['password'],
+            $request['remember']
+        ];
 
-        if (Auth::attempt(['email' => $request['email'], 'password' => $request['password']], $request['remember'])) {
-            $request->session()->regenerate();
-            $user = Auth::user();
-            return response()->json(['data' => $user]);
-        } else {
+        if (!Auth::attempt($data)) {
             return response()->json(['message' => 'Invalid credentials'], 401);
         }
+
+        $request->session()->regenerate();
+
+        return new UserResource(Auth::user());
     }
 
     public function register(RegisterRequest $request): UserResource
