@@ -21,7 +21,7 @@
         "@babel/eslint-parser": "^7.28.4",
         "@reduxjs/toolkit": "^2.9.0",
         "antd": "^5.27.1",
-        "axios": "^1.11.0",
+        "axios": "^0.31.1",
         "react": "^19.1.1",
         "react-dom": "^19.1.1",
         "react-redux": "^9.2.0",
